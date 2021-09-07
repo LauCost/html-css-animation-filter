@@ -96,7 +96,12 @@
 }
 
 
-/* Ex-9 */
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+}
+
 .ex-9-img:hover{
     filter:grayscale(3) blur(1px);
     border-radius: 20px;
@@ -105,15 +110,13 @@
 
 
 
-
-
-.ex-9-img {
-    margin: 50px 100px;
-    width: 400px;
-}
 .ex-10-icon {
     font-size: 60px;
 }
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
