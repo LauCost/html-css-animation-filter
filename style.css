@@ -75,7 +75,7 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 /* Ex-6 */
@@ -96,6 +96,12 @@
 }
 
 
+/* Ex-9 */
+.ex-9-img:hover{
+    filter:grayscale(3) blur(1px);
+    border-radius: 20px;
+    width: 800px;
+}
 
 
 
