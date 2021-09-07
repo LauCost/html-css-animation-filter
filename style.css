@@ -89,7 +89,11 @@
 }
 
 
-
+/* Ex-8 */
+.ex-8-img:hover{
+    filter:grayscale(3) blur(1px);
+    border-radius: 20px;
+}
 
 
 
