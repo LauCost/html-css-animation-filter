@@ -181,3 +181,35 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: TopBianco 2s linear infinite;
+}
+
+@keyframes TopBianco {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 60%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: BottomBianco 2s linear infinite;
+}
+
+@keyframes BottomBianco {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: 60%;
+    }
+    100% {
+        right: 10%;
+    }
+}
