@@ -110,10 +110,18 @@
 
 
 
+
+
 .ex-10-icon {
     font-size: 60px;
+    animation: carica 2s linear infinite;
 }
 
+@keyframes carica {
+    0% {
+        transform: rotate(1turn);
+    }
+}
 
 
 
